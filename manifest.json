@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Home Page Replacer",
+    "version": "1.0",
+    "description": "Replaces home screen",
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <video autoplay loop mute>
+        <source src="landscape.webm" type="video/webm">
+    </video>
+    <div class="card">
+        <ul>
+            <li><input id="textbox" type="text" placeholder="Search..." autofocus onkeydown="if (event.keyCode == 13 || event.which == 13) { location='https://www.google.com/search?q=' + encodeURIComponent(document.getElementById('textbox').value);}" /></li>
+            <li><a href="https://facebook.com/">Facebook</a></li>
+            <li><a href="https://twist.moe/">Anime Twist</a></li>
+            <li><a href="http://www.twitch.tv/directory/following">Twitch</a></li>
+            <li><a href="https://kageshi.com/rooms/mtfg">Kageshi</a></li>
+            <li><a href="https://ccplz.net/">CCPLZ</a></li>
+            <li><a href="https://github.com/">Github</a></li>
+        </ul>
+        <!-- <img src="mascot.png" id="mascot" draggable="false"> -->
+    </div>
+</body>
+</html>
